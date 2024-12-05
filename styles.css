@@ -1,0 +1,154 @@
+div, header, footer {
+    border: rgba(255, 0, 0, 0.671) solid 3px;
+}
+* {
+    font-family: "Roboto";
+}
+/* Need to center whole page when viewport is larger than an expected amount, page content should not be larger than that */
+
+li {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.header_links {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+.logo {
+    margin: 15px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.hero_text {
+    width: 450px;
+    height: 250px;
+}
+
+.hero_headline {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 4px 0px;
+}
+
+.hero_subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 4px 0px;
+
+}
+
+.hero_image img{
+    width: 450px;
+    height: 250px;
+    object-fit: scale-down;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 600;
+    height: 28px;
+    width: 86px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.info {
+    height: 400px;
+}
+.info p {
+    font-size: 36px;    
+    color: #1F2937;
+    font-weight: 900;
+    margin: 20px;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-evenly;
+    width: 925px;
+    margin: auto;
+}
+
+.illustrations div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+.illustrations img {
+    border: blue solid 3px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 4px;
+    
+}
+
+.illustrations p {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_box {
+    height: 200px;
+    max-width: 800px;
+    margin: none;
+}
+
+.quote_text {
+    margin: 0;
+}
+
+.quote_author{
+    margin: 0;
+    text-align: right;
+    font-weight: 500;
+    font-style: normal;
+}
+
